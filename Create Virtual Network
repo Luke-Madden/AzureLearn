@@ -1,0 +1,8 @@
+$vnet = @{
+    Name = 'CoreServicesVnet'
+    ResourceGroupName = 'ContosoResourceGroup'
+    Location = 'EastUS'
+    AddressPrefix = '10.20.0.0/16'    
+}
+$virtualNetwork = New-AzVirtualNetwork @vnet
+
