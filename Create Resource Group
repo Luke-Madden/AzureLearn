@@ -1,0 +1,5 @@
+$rg = @{
+    Name = 'ContosoResourceGroup'
+    Location = 'EastUS'
+}
+New-AzResourceGroup @rg
